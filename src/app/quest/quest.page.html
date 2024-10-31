@@ -1,0 +1,74 @@
+<ion-content>
+  <div class="announcement-board">
+      <h1>Quest Petualang</h1>
+      <ion-list>
+          <ion-item button>
+              <ion-label onclick="showQuest(1)">Menjelajahi Hutan Gelap</ion-label>
+          </ion-item>
+          <ion-item button>
+              <ion-label onclick="showQuest(2)">Menyelamatkan Putri</ion-label>
+          </ion-item>
+          <ion-item button>
+              <ion-label onclick="showQuest(3)">Mencari Harta Karun</ion-label>
+          </ion-item>
+          <ion-item button>
+              <ion-label onclick="showQuest(4)">Pertempuran dengan Naga</ion-label>
+          </ion-item>
+          <ion-item button>
+              <ion-label onclick="showQuest(5)">Mengumpulkan Herbal</ion-label>
+          </ion-item>
+      </ion-list>
+  </div>
+</ion-content>
+
+<div class="quest-details" id="questDetails">
+  <ion-card id="quest1" class="quest-content">
+      <ion-card-header>
+          <ion-card-title>Menjelajahi Hutan Gelap</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+          <p>Temukan jalan keluar dari hutan misterius.</p>
+          <ion-button onclick="hideQuest()">Kembali</ion-button>
+      </ion-card-content>
+  </ion-card>
+  
+  <ion-card id="quest2" class="quest-content">
+      <ion-card-header>
+          <ion-card-title>Menyelamatkan Putri</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+          <p>Bantu putri yang diculik oleh monster.</p>
+          <ion-button onclick="hideQuest()">Kembali</ion-button>
+      </ion-card-content>
+  </ion-card>
+  
+  <ion-card id="quest3" class="quest-content">
+      <ion-card-header>
+          <ion-card-title>Mencari Harta Karun</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+          <p>Ikuti petunjuk untuk menemukan harta karun yang hilang.</p>
+          <ion-button onclick="hideQuest()">Kembali</ion-button>
+      </ion-card-content>
+  </ion-card>
+  
+  <ion-card id="quest4" class="quest-content">
+      <ion-card-header>
+          <ion-card-title>Pertempuran dengan Naga</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+          <p>Bersiaplah untuk pertarungan epik melawan naga.</p>
+          <ion-button onclick="hideQuest()">Kembali</ion-button>
+      </ion-card-content>
+  </ion-card>
+  
+  <ion-card id="quest5" class="quest-content">
+      <ion-card-header>
+          <ion-card-title>Mengumpulkan Herbal</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+          <p>Kumpulkan ramuan herbal untuk penyembuhan.</p>
+          <ion-button onclick="hideQuest()">Kembali</ion-button>
+      </ion-card-content>
+  </ion-card>
+</div>
